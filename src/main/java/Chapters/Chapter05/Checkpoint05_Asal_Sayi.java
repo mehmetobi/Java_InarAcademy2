@@ -1,4 +1,4 @@
-package Chapters.Chapter5;
+package Chapters.Chapter05;
 
 public class Checkpoint05_Asal_Sayi {
     public Checkpoint05_Asal_Sayi() {
