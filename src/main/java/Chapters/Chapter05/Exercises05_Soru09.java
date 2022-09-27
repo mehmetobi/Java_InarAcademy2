@@ -1,5 +1,7 @@
 package Chapters.Chapter05;
 
+import java.util.Scanner;
+
 public class Exercises05_Soru09 {
     public static void main(String[] args) {
 
