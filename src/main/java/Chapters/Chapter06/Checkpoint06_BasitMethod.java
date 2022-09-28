@@ -12,7 +12,7 @@ public class Checkpoint06_BasitMethod {
         System.out.println("30 dan 33 e kadar olan sayilarin toplami: " + toplam);
 
 
-        System.out.println(TestMax.max(2, 8));
+
 
         System.out.println(Math.random());
     }
