@@ -1,4 +1,4 @@
-package Chapters.Chapter06;
+package Chapters.Chapter06.CheckPoints06;
 
 public class Checkpoin06_TestRassal {
     public static void main(String[] args) {

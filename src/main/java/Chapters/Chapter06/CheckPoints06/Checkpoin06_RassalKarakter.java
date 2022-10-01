@@ -1,4 +1,4 @@
-package Chapters.Chapter06;
+package Chapters.Chapter06.CheckPoints06;
 
 public class Checkpoin06_RassalKarakter {
     public static char rassalKaraterBul(char ch1, char ch2) {
