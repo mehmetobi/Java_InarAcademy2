@@ -2,6 +2,7 @@ package Chapters.Chapter06.Exercises06;
 
 import java.util.Scanner;
 
+
 public class Exercises06_Soru03 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
