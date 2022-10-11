@@ -26,12 +26,6 @@ public class Exercises06_Soru03 {
     }
 
     public static boolean isPalindrom(int number) {
-        boolean isPalindrom;
-        if (number == reverse(number)) {
-            isPalindrom = true;
-        } else {
-            isPalindrom = false;
-        }
-        return isPalindrom;
+        return (number == reverse(number)) ? true : false;
     }
 }
