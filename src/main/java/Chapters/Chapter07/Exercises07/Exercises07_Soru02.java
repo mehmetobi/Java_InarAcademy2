@@ -5,20 +5,20 @@ import java.util.Scanner;
 public class Exercises07_Soru02 {
     public static void main(String[] args) {
         // TestReversedArray();
-        int[] numbers = new int[0];
-        ReverseArray(numbers);
         final int numberOfIntegers = 10;
-        numbers = new int[numberOfIntegers];
+        int[] numbers = new int[numberOfIntegers];
+
 
         Scanner input = new Scanner(System.in);
-        System.out.println(" Enter 10 integers ");
+        System.out.println("Enter 10 integers:");
 
         for (int i = 0; i < numbers.length; i++) {
             numbers[i] = input.nextInt();
+        }
+            printArray(numbers);
 
 
 //TODO YAZDIR METODO YAZILACAK.... METOT MAINDE ÇAĞIR...SCANNER.
-
 
 
             //  int[] testArray = {1, 2, 3, 4, 5, 6};
@@ -52,20 +52,29 @@ public class Exercises07_Soru02 {
             assert Arrays.equals(m, expectedArray4);
 
 */
-    }
-
-        public static int[] ReverseArray(int[] numbers){
-
-            for (int i = 0; i <= (numbers.length / 2) - 1; i++) {
-
-                int template = numbers[i];
 
 
-                numbers[i] = numbers[numbers.length - 1 - i];
-                numbers[numbers.length - 1 - i] = template;
-            }
+    public static int[] ReverseArray(int[] numbers) {
+
+        for (int i = 0; i <= (numbers.length / 2) - 1; i++) {
+
+            int template = numbers[i];
 
 
-            return numbers;
+            numbers[i] = numbers[numbers.length - 1 - i];
+            numbers[numbers.length - 1 - i] = template;
         }
+
+
+        return numbers;
     }
+
+    public static void printArray(int[] numbers) {
+        int reverseArray[] = ReverseArray(numbers);
+        for (int i = 0; i < reverseArray.length; i++) {
+            System.out.println(reverseArray[i]);
+
+        }
+
+    }
+}
