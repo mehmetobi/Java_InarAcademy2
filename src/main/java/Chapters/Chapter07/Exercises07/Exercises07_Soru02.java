@@ -72,7 +72,7 @@ public class Exercises07_Soru02 {
     public static void printArray(int[] numbers) {
         int reverseArray[] = ReverseArray(numbers);
         for (int i = 0; i < reverseArray.length; i++) {
-            System.out.println(reverseArray[i]);
+            System.out.print(reverseArray[i] + " ");
 
         }
 
