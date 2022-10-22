@@ -16,11 +16,12 @@ public class Exercises08_Soru02 {
 }
     public static double sumMajorDiagonal(double[][] numbers){
         double sum = 0;
-        for (int row = 0; row < numbers.length; row++) {
-            for (int column = row; column == row; column++) {
-                sum += numbers[row][column];
-            }
+
+        for (int i = 0 ; i < numbers.length ; i++) {
+            //System.out.println(numbers[i][i]);
+            sum += numbers[i][i];
         }
+
         return sum;
     }
 }
