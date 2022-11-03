@@ -1,4 +1,4 @@
-package Chapters.Chapter09.Exercises09;
+package Exercise09_Soru12;
 
 import java.util.Scanner;
 
