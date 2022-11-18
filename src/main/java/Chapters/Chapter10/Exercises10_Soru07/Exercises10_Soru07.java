@@ -11,7 +11,12 @@ public class Exercises10_Soru07 {
         System.out.print("Enter an id: ");
         int id = input.nextInt();
 
-        Account account = new Account(id, 100);
+        Account account = new Account(id, 100) {
+            @Override
+            public void withDraw(double amount) {
+
+            }
+        };
         displayMenu();
 
         System.out.println("Enter a choice");

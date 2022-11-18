@@ -2,7 +2,7 @@ package Chapters.Chapter09.Exercises09.Exercises09_Soru07;
 
 import java.util.Date;
 
-public class Account {
+public abstract class Account {
 
     private int id = 0;
     private double balance = 0;
@@ -60,6 +60,8 @@ public class Account {
     public void deposit(double amount){
         balance += amount;
     }
+
+    public abstract void withDraw(double amount);
 }
 
 
