@@ -1,6 +1,6 @@
 package Chapters.Chapter11.Exercises11.Exercises11_Soru03;
 
-import Chapters.Chapter09.Exercises09.Exercises09_Soru07.Account;
+import Chapters.Chapter09.Exercises09_Soru07.Account;
 
 public class SavingsAccount extends Account {
     public SavingsAccount() {

@@ -1,4 +1,4 @@
-package Chapters.Chapter09.Exercises09.Exercises09_Soru12;
+package Chapters.Chapter09.Exercises09_Soru12;
 
 public class LinearEquation {
 

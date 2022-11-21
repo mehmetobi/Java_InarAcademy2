@@ -1,4 +1,4 @@
-package Chapters.Chapter09.Exercises09.Exercises09_Soru06;
+package Chapters.Chapter09.Exercises09_Soru06;
 
 public class Exercises09_Soru06 {
 

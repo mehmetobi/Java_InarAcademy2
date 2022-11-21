@@ -1,4 +1,4 @@
-package Chapters.Chapter09.Exercises09.Exercises09_Soru07;
+package Chapters.Chapter09.Exercises09_Soru07;
 
 public class Exercises09_Soru07 {
     public static void main(String[] args) {

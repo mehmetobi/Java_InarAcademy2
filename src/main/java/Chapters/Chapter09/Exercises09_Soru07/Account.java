@@ -1,4 +1,4 @@
-package Chapters.Chapter09.Exercises09.Exercises09_Soru07;
+package Chapters.Chapter09.Exercises09_Soru07;
 
 import java.util.Date;
 

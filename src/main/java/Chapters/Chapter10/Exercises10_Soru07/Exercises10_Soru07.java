@@ -1,6 +1,6 @@
 package Chapters.Chapter10.Exercises10_Soru07;
 
-import Chapters.Chapter09.Exercises09.Exercises09_Soru07.Account;
+import Chapters.Chapter09.Exercises09_Soru07.Account;
 
 import java.util.Scanner;
 

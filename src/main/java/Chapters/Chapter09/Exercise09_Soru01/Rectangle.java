@@ -1,4 +1,4 @@
-package Chapters.Chapter09.Exercises09.Exercise09_Soru01;
+package Chapters.Chapter09.Exercise09_Soru01;
 
 public class Rectangle {
 
