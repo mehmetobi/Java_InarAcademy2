@@ -1,4 +1,4 @@
-package Chapters.Chapter11.Exercises11_Soru14;
+package Chapters.Chapter11.Exercises11.Exercises11_Soru14;
 
 import java.util.ArrayList;
 import java.util.Scanner;
