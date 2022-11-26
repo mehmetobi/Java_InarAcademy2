@@ -3,7 +3,7 @@ package Chapters.Chapter11.Exercises11.Exercises11_Soru01;
 import java.util.Scanner;
 
 public class Exercises11_Soru01 {
-    // getArea method did not invoked from super class
+
 
 
     public static void main(String[] args) {
@@ -16,8 +16,10 @@ public class Exercises11_Soru01 {
         String color = input.next();
         boolean isFilled = input.nextBoolean();
         Triangle triangle = new Triangle(side1,side2,side3);
+        triangle.setColor(color);
+        triangle.setFilled(isFilled);
 
-        System.out.println(" " + triangle + triangle.getArea()+ triangle.getPerimeter() +triangle.toString());
+        System.out.println(" " + triangle + triangle.getArea()+ triangle.getPerimeter());
 
     }
 }

@@ -3,18 +3,20 @@ package Chapters.Chapter11.Exercises11.Exercises11_Soru01;
 import java.util.Date;
 
 public class GeometricObject {
-    public class SimpleGeometricObject {
+
         private String color = "white";
         private boolean filled;
         private Date dateCreated;
 
 
-        public SimpleGeometricObject() {
+
+
+        public GeometricObject() {
             this.dateCreated = new java.util.Date();
         }
 
 
-        public SimpleGeometricObject(String color, boolean filled) {
+        public GeometricObject(String color, boolean filled) {
             this.color = color;
             this.filled = filled;
             this.dateCreated = new java.util.Date();
@@ -49,4 +51,4 @@ public class GeometricObject {
             return "created on " + this.dateCreated + "\ncolor: " + this.color + " and filled: " + filled;
         }
     }
-}
+

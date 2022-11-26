@@ -49,7 +49,9 @@ public class Triangle extends GeometricObject {
     }
     @Override
     public String toString(){
-        return "Triangle: side1:" + this.side1 + "\nside2: " + this.side2 + "\nside3: " + this.side3;
+        return "Triangle: side1 = " + side1 + " side2 = " + side2 + " side3 = " + side3+ "\n"+
+                "Area = " + getArea() + "\nPerimeter = " + getPerimeter() +"\nColor = " + getColor()  +
+                "\nIs Filled = " + this.isFilled();
     }
 
 }
