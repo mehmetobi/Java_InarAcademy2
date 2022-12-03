@@ -14,7 +14,7 @@ public class Exercises12_Soru31 {
         System.out.print("Enter the name: ");
         String name = input.next();
 
-        File file = new File("C:/Users/ASUS/babynameranking" + year + ".txt");
+        File file = new File("babynameranking" + year + ".txt");
 
         if (!file.exists()) {
             System.out.println("No such file.");
